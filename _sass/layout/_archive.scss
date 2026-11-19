@@ -66,6 +66,20 @@
   }
 }
 
+.archive__item-abstract {
+  margin: 0 0 0.75em;
+  font-size: $type-size-6;
+
+  summary {
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  &[open] summary {
+    margin-bottom: 0.5em;
+  }
+}
+
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;

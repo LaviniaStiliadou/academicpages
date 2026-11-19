@@ -45,6 +45,11 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
+        {% if page.abstract %}
+        <h2>Abstract</h2>
+        {{ page.abstract | markdownify }}
+        {% endif %}
+
         {{ content }}
 
         {% include /components/citations.html
