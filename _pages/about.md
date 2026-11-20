@@ -19,6 +19,21 @@ Research interests
 - **Patterns for quantum computing.** I capture proven solutions as patterns, for example for composing quantum algorithms and for quantum machine learning. Two of these papers received Best Paper Awards (IQSOFT 2025, PATTERNS 2025).
 - **Variational quantum algorithms.** I study the cost landscapes of hybrid quantum-classical algorithms and what they mean for optimization in practice.
 
+Skills
+======
+- **Quantum programming:** Python, OpenQASM 3, quantum circuit design and transformation
+- **Quantum algorithms:** variational quantum algorithms, quantum neural networks, quantum machine learning, warm-starting
+- **Quantum software engineering:** low-code platforms, model-to-code transformation, patterns, hybrid quantum-classical workflows
+- **Cloud and workflows:** orchestration and observability of quantum workflows across hybrid and multi-cloud environments
+- **Platforms:** Qonstruct, QHAna
+<!-- TODO: please verify and complete: SDKs (Qiskit, PennyLane, ...), quantum hardware/providers used (IBM Quantum, AWS Braket, IonQ, ...), languages/frameworks (TypeScript, React, Flask, Docker, Kubernetes, BPMN/Camunda, ...) -->
+
+Leadership
+======
+- Supervised **26 theses and student projects**: 6 Master's theses, 6 Bachelor's theses, and 14 research and development projects, 11 of them team projects with up to 7 students (see [Teaching](/teaching/)).
+- Co-developing the low-code platform Qonstruct together with colleagues and student teams.
+<!-- TODO: add project leadership (e.g. "Technical lead of Qonstruct") and funded projects (name, funder, your role) if applicable -->
+
 Education packages
 ======
 Complex topics can be explained simply. In the [Education](/education/) section, I turn concepts from my research into short, self-contained learning packages for beginners, students, and domain experts.

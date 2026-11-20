@@ -1,14 +1,19 @@
 ---
 layout: archive
-title: "Portfolio"
-permalink: /portfolio/
+title: "Projects"
+permalink: /projects/
+redirect_from:
+  - /portfolio/
 author_profile: true
 ---
 
 {% include base_path %}
 
 
-{% for post in site.portfolio %}
+Selected projects I have built, led, or contributed to. Each entry lists my role, the tech stack, and links to code and papers.
+
+{% assign projects = site.portfolio | sort: "order" %}
+{% for post in projects %}
   {% include archive-single.html %}
 {% endfor %}
 
