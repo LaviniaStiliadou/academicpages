@@ -1,6 +1,7 @@
 ---
 title: "Low-Code Quantum Algorithm Modeling and Execution for Hybrid Cloud Environments"
 collection: publications
+authorship: first
 category: conferences
 permalink: /publication/2026-01-01-low-code-quantum-algorithm-modeling-hybrid-cloud
 date: 2026-01-01

@@ -1,6 +1,7 @@
 ---
 title: "Patterns for Quantum Machine Learning"
 collection: publications
+authorship: first
 category: conferences
 permalink: /publication/2025-01-01-patterns-quantum-machine-learning
 date: 2025-01-01

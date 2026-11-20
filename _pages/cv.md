@@ -3,6 +3,7 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: true
+hide_avatar: true
 redirect_from:
   - /resume
 ---
@@ -18,7 +19,7 @@ Education
 
 Work experience
 ======
-* 20XX – present: Research Associate, University of Stuttgart
+* 20XX – present: Research Associate, Institute of Architecture of Application Systems (IAAS), University of Stuttgart
 -->
 
 Research interests
@@ -28,6 +29,12 @@ Research interests
 * Patterns for quantum computing and quantum machine learning
 * Variational quantum algorithms and hybrid quantum-classical workflows
 
+Skills
+======
+* Cloud computing: hybrid and multi-cloud environments, orchestration of quantum workflows across cloud providers
+* Low-code platform development (Qonstruct)
+* Pattern-based software design
+
 Awards
 ======
 * Best Paper Award, IQSOFT 2025: *Fundamental Patterns for Composing Quantum Algorithms*
@@ -35,9 +42,16 @@ Awards
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
+{% for group in site.publication_authorship %}
+  {% assign pubs = site.publications | where: "authorship", group[0] | reverse %}
+  {% if pubs.size > 0 %}
+### {{ group[1].title }}
+
+  <ul>{% for post in pubs %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+  {% endif %}
+{% endfor %}
 
 Education packages
 ======

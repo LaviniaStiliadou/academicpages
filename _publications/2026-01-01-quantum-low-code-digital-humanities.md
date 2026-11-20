@@ -1,6 +1,7 @@
 ---
 title: "Leveraging Quantum Computing through Low-Code Approaches for the Digital Humanities"
 collection: publications
+authorship: first
 category: conferences
 permalink: /publication/2026-01-01-quantum-low-code-digital-humanities
 date: 2026-01-01

@@ -1,6 +1,7 @@
 ---
 title: "Low-Code Quantum Application Development: From Modeling to Workflow Execution"
 collection: publications
+authorship: first
 category: conferences
 permalink: /publication/2027-01-01-low-code-quantum-application-development
 date: 2027-01-01

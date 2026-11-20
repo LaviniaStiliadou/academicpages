@@ -1,6 +1,7 @@
 ---
 title: "A Collaborative Low-Code Platform for Quantum Application Design and Execution"
 collection: publications
+authorship: first
 category: conferences
 permalink: /publication/2026-01-01-collaborative-quantum-low-code-platform
 date: 2026-01-01

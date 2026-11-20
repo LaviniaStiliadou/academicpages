@@ -1,6 +1,7 @@
 ---
 title: "A Multi-Domain Quantum Low-Code Platform"
 collection: publications
+authorship: first
 category: conferences
 permalink: /publication/2026-01-01-multi-domain-quantum-low-code-platform
 date: 2026-01-01

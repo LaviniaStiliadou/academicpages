@@ -1,6 +1,7 @@
 ---
 title: "Fundamental Patterns for Composing Quantum Algorithms"
 collection: publications
+authorship: first
 category: conferences
 permalink: /publication/2025-01-01-fundamental-patterns-composing-quantum-algorithms
 date: 2025-01-01
